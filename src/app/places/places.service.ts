@@ -6,9 +6,31 @@ import {Place} from "./place.model";
 })
 export class PlacesService {
 
-  private _places:Place[] = [];
+  private _places:Place[] = [
+    new Place(
+      'p1',
+      'Manhattan Mansion',
+      'In the heart of New York City',
+      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.6sqft.com%2Fmanhattan-mansions-5-of-the-biggest-we-mean-gigantic-single-family-homes%2F&psig=AOvVaw0YWlx-RaZXCfqlY1jP3wB-&ust=1619695852118000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiDg7LroPACFQAAAAAdAAAAABAD',
+      150.00
+    ),
+    new Place(
+      'p2',
+      'L\' Amour Toujours',
+      'A romantic place in paris',
+      'https://media-cdn.tripadvisor.com/media/photo-s/16/0b/96/09/hotel-amour.jpg',
+      200.00
+    ),
+    new Place(
+      'p3',
+      'The Foggy Place',
+      'Not your average city trip!',
+      'https://i.pinimg.com/originals/9c/88/44/9c8844b217bdb6c17db14f51ad2e51a5.jpg',
+      100.00
+    )
+  ];
 
-  get places(){
+  public getPlaces(){
     // @ts-ignore
     return [...this._places];
   }
