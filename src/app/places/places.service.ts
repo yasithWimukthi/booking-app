@@ -11,7 +11,7 @@ export class PlacesService {
       'p1',
       'Manhattan Mansion',
       'In the heart of New York City',
-      'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.6sqft.com%2Fmanhattan-mansions-5-of-the-biggest-we-mean-gigantic-single-family-homes%2F&psig=AOvVaw0YWlx-RaZXCfqlY1jP3wB-&ust=1619695852118000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiDg7LroPACFQAAAAAdAAAAABAD',
+      'https://filminglocationwanted.com/wp-content/uploads/2015/06/manhattan-city-location2.jpg',
       150.00
     ),
     new Place(
